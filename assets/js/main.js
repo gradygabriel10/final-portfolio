@@ -116,12 +116,3 @@ sr.reveal(`.home_handle`, {delay: 700})
 sr.reveal(`.home_social, .home_scroll`, {delay: 900, origin: 'bottom'})
 
 // PROJECT SUBMISSION
-const nameForm = document.querySelector(".name-form");
-const emailForm = document.querySelector(".mail-form");
-const projectForm = document.querySelector(".project-form");
-const submitForm = document.querySelector(".submit-form");
-
-submitForm.addEventListener('click', () =>{
-    alert("grady")
-    // e.preventDefault();
-})
